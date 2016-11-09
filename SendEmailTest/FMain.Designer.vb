@@ -83,7 +83,7 @@ Partial Class FMain
 		Me.txtPort.Name = "txtPort"
 		Me.txtPort.Size = New System.Drawing.Size(227, 20)
 		Me.txtPort.TabIndex = 5
-		Me.txtPort.Text = "465"
+		Me.txtPort.Text = "25"
 		'
 		'Label3
 		'
@@ -179,8 +179,6 @@ Partial Class FMain
 		'
 		Me.chkSSL.AutoSize = True
 		Me.chkSSL.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-		Me.chkSSL.Checked = True
-		Me.chkSSL.CheckState = System.Windows.Forms.CheckState.Checked
 		Me.chkSSL.Location = New System.Drawing.Point(12, 119)
 		Me.chkSSL.Name = "chkSSL"
 		Me.chkSSL.Size = New System.Drawing.Size(46, 17)

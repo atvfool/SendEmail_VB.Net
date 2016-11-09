@@ -1,4 +1,5 @@
-﻿
+﻿Imports atvfool_SendEmail
+
 Public Class FMain
 
 	Private Sub btnSend_Click(sender As Object, e As EventArgs) Handles btnSend.Click
