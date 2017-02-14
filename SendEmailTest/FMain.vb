@@ -45,5 +45,4 @@ Public Class FMain
 		Application.Exit()
 	End Sub
 
-
 End Class

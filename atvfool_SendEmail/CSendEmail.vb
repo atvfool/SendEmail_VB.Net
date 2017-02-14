@@ -144,7 +144,7 @@ Public Class CSendEmail
 							  ByVal strTo As String,
 							  ByVal strSubject As String,
 							  ByVal strBody As String,
-							  Optional ByVal blnHTMLBody As Boolean = False) As Boolean
+							  Optional ByVal blnHTMLBody As Boolean = False, Optional ByVal AttachmentFile As String = "") As Boolean
 
 		Dim blnSuccess As Boolean = False
 
@@ -163,6 +163,10 @@ Public Class CSendEmail
 			emailMessage.Subject = strSubject
 			emailMessage.IsBodyHtml = blnHTMLBody
 			emailMessage.Body = strBody
+
+			If IO.File.Exists(AttachmentFile) Then
+				emailMessage.Attachments.Add(New Attachment(AttachmentFile))
+			End If
 
 			smtpServer.Send(emailMessage)
 

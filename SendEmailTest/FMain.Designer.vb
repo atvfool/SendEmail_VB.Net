@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FMain
 	Inherits System.Windows.Forms.Form
 
 	'Form overrides dispose to clean up the component list.
-	<System.Diagnostics.DebuggerNonUserCode()> _
+	<System.Diagnostics.DebuggerNonUserCode()>
 	Protected Overrides Sub Dispose(ByVal disposing As Boolean)
 		Try
 			If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FMain
 	'NOTE: The following procedure is required by the Windows Form Designer
 	'It can be modified using the Windows Form Designer.  
 	'Do not modify it using the code editor.
-	<System.Diagnostics.DebuggerStepThrough()> _
+	<System.Diagnostics.DebuggerStepThrough()>
 	Private Sub InitializeComponent()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.txtUsername = New System.Windows.Forms.TextBox()
@@ -199,7 +199,7 @@ Partial Class FMain
 		'
 		'btnSend
 		'
-		Me.btnSend.Location = New System.Drawing.Point(36, 378)
+		Me.btnSend.Location = New System.Drawing.Point(12, 378)
 		Me.btnSend.Name = "btnSend"
 		Me.btnSend.Size = New System.Drawing.Size(83, 38)
 		Me.btnSend.TabIndex = 19
@@ -208,7 +208,7 @@ Partial Class FMain
 		'
 		'btnClose
 		'
-		Me.btnClose.Location = New System.Drawing.Point(196, 378)
+		Me.btnClose.Location = New System.Drawing.Point(223, 378)
 		Me.btnClose.Name = "btnClose"
 		Me.btnClose.Size = New System.Drawing.Size(83, 38)
 		Me.btnClose.TabIndex = 20
